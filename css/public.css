@@ -1,0 +1,75 @@
+body {
+  background-color: grey;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  align-content: center;
+  margin: 0 auto;
+}
+
+#content {
+  overflow: auto;
+  height: 100%;
+  align-content: center;
+}
+
+#nav, #feature, #footer {
+  text-align: center;
+  background-color: rgb(257,77,77);
+  padding: 10px;
+  margin: 10px;
+}
+
+.column1, .column2, .column3, .column4 {
+  background-color: rgb(257,77,77);
+  text-align: center;
+  width: 220px;
+  float: left;
+  margin: 10px;
+}
+
+.visit1, .visit2, .visit3, .visit4, .visit5 {
+  background-color: rgb(257,77,77);
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+}
+
+p {
+  align-content: center;
+  padding: 10px;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+img.medium {
+  padding-left: 240px;
+  height: 250px;
+  width: 50%;
+}
+
+img.other {
+  padding-left: 175px;
+  align-items: center;
+  height: 125px;
+  width: 185px;
+}
+
+img.small {
+  align-items: center;
+  height: 150px;
+  width: 175px;
+  margin: auto;
+}
